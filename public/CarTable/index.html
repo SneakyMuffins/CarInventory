@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Car Inventory</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Car Inventory</h1>
+        <table id="carTable" border="1">
+            <thead>
+                <tr>
+                    <th data-column="carName">Car Name</th>
+                    <th data-column="price">Price</th>
+                    <th data-column="discount">Discount</th>
+                    <th data-column="hand">Hand</th>
+                    <th data-column="availability">Availability</th>
+                    <th data-column="color">Color</th>
+                </tr>
+            </thead>            
+            <tbody>
+                <!-- Car data will be inserted here -->
+            </tbody>
+        </table>
+        <br>
+        <button onclick="sortData('price')">Sort by Price</button>
+        <button onclick="sortData('color')">Sort by Color</button>
+    </body>
+</html>

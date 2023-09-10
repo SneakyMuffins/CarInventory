@@ -1,0 +1,20 @@
+{
+    "name": "sneakymuffins/car-inventory",
+    "description": "Car Inventory Display",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikheili Papiashvili",
+            "email": "mikheili.papiashvili@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CarInventory\\": ""
+        }
+    }    
+}
