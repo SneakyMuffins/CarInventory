@@ -27,6 +27,6 @@ php -S localhost:8000
 
 This command will start a development server that listens on localhost at port 8000. You can access your PHP application in a web browser by navigating to http://localhost:8000.
 
-#Public URLS
+# Public URLS
 In this instance, you need to access the following URL: *http://localhost:8000/public/cartable/index.html*
 
